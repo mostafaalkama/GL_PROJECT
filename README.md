@@ -10,7 +10,7 @@
 | #7 | En tant que Membre (du groupe), je peux modifier sur le projet. | 6 | 12 | 
 | #8 | En tant que Chef du groupe, je peux supprimer le projet réalise. | 10 | 3 | 
 | #9 | En tant que Chef du groupe, je peux affecter une Date limite pour chaque tâche. | 8 | 5 | 
-| #10| En tant que Membre (du groupe), je peux affecter les taches au chaque membre. | 8 | 7 |
+| #10| En tant que Chef du groupe, je peux affecter les taches au chaque membre. | 5 | 7 |
 
 
 
