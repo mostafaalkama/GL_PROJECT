@@ -21,5 +21,5 @@ visiteur > utilisateur > membre du groupe
 
 * ALKAMA Mustapha
 * BENATHMANE Nouhaila
-* RAKHIM Chaimaa
+* RAKHIM Chaimae
 * TALHAOUI Ismail
