@@ -1,5 +1,6 @@
 ﻿
  SPRINT 1
+ 
 | Id |      User Story      |  Priorité |  Difficulté (Coût) |    Etat|
 |:--:|:----------------------------------------------------------------------------:|:-:|:-:|:-:|
 | #1 | En tant que développeur, je souhaite m’inscrire dans l’outil en tapant mon e-mail et mon mot de passe. | 1 | 8 |à faire|
