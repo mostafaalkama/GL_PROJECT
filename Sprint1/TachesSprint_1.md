@@ -38,7 +38,7 @@
 <tr>
 	<td>5</td>
 	<td>1</td>
-	<td>Tache 1<td>
+	<td>Tache 1</td>
 	<td></td>
 </tr>
 <tr>
