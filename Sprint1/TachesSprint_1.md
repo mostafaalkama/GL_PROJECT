@@ -1,6 +1,11 @@
 ﻿
  <h2>Taches Sprint_1</h2></br>
 
+    ALKAMA Mustapha
+    BENATHMANE Nouhaila
+    RAKHIM Chaimae
+    TALHAOUI Ismail
+
 <table style="width:100%">
 <tr>
 	<th>Id User Story</th>
@@ -12,7 +17,7 @@
 	<td>1</td>
 	<td>1</td>
 	<td>Creation du page d'inscription(Html+Design)</td> 
-	<td>Nouhaila</td>
+	<td>BENATHMANE Nouhaila</td>
 </tr>
 
 <tr>
@@ -33,13 +38,13 @@
 	<td>1</td>
 	<td>4</td>
 	<td>Developpement Front-end:Ameloiration du formulaire d'inscription par JavaScript et JQuery </td> 
-	<td>Nouhaila Benenthmane</td>
+	<td>BENATHMANE Nouhaila</td>
 </tr>
 <tr>
 	<td>1</td>
 	<td>5</td>
 	<td>Confirmation d'inscription par email </td>
-	<td>Ismail Talhaoui</td>
+	<td>TALHAOUI Ismail</td>
 </tr>
 <tr>
 	<td>1</td>
@@ -70,14 +75,14 @@
 	<td>3</td>
 	<td>10</td>
 	<td>Invitation par email pour l'utilisateur invite au projet</td>
-	<td>Ismail Talhaoui</td>
+	<td>BENATHMANE Nouhaila</td>
 </tr>
 
 <tr>
 	<td>3</td>
 	<td>11</td>
 	<td>Affectation d'un role a utilisateur Creation de la table roles(id,nom_role,equipe)</td>
-	<td></td>
+	<td>ALKAMA Mustapha</td>
 </tr>
 
 
@@ -85,21 +90,21 @@
 	<td>3</td>
 	<td>12</td>
 	<td>mettre en place les actions et les services pour inviter un utilisateur par email</td>
-	<td></td>
+	<td>TALHAOUI Ismail</td>
 </tr>
 
 <tr>
 	<td>4</td>
 	<td>13</td>
 	<td>Creation de formulaire de connexion pour les visiteur de l'application(Html+design(Boostrap,Css)) </td>
-	<td></td>
+	<td>RAKHIM Chaimae</td>
 </tr>
 
 <tr>
 	<td>4</td>
 	<td>14</td>
 	<td>Gestion de connexion du visiteur</td>
-	<td></td>
+	<td>BENATHMANE Nouhaila</td>
 </tr>
 
 <tr>
