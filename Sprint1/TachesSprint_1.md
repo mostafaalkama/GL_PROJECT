@@ -50,26 +50,26 @@
 	<td>1</td>
 	<td>6</td>
 	<td>Developpement Back-end:Gerer le exceptions et valider le formulaire </td> 
-	<td>Mostafa Alkama</td>
+	<td> ALKAMA Mustapha</td>
 </tr>
 <tr>
 	<td>2</td>
 	<td>7</td>
 	<td>developpement des interfaces pour ajouter une equipe de projet (Design)</td>
-	<td></td>
+	<td> TALHAOUI Ismail</td>
 </tr>
 <tr>
 	<td>2</td>
 	<td>8</td>
 	<td>Creation de la table equipe(id,nom_equipe,id_membre)</td>
-	<td></td>
+	<td> TALHAOUI Ismail</td>
 </tr>
 
 <tr>
 	<td>2</td>
 	<td>9</td>
 	<td>Creation d'un espace prive pour les membres d'equipe ,limiter les droits d'acces au espace</td>
-	<td>Mostafa Alkama</td>
+	<td>Mostafa Alkama,TALHAOUI Ismail</td>
 </tr>
 <tr>
 	<td>3</td>
@@ -111,7 +111,7 @@
 	<td>4</td>
 	<td>15</td>
 	<td>Limiter les droits d'acces pour un visiteur</td>
-	<td></td>
+	<td> ALKAMA Mustapha,RAKHIM Chaimae</td>
 </tr>
 
 
