@@ -2,12 +2,12 @@
  <h2>Taches Sprint_1</h2></br>
 
 <table style="width:100%">
-<th>
+<tr>
 	<th>Id User Story</th>
 	<th>Id tache</th>
 	<th>Taches</th> 
 	<th>Personne en charge</th>
-</th>
+</tr>
 <tr>
 	<td>1</td>
 	<td>1</td>
