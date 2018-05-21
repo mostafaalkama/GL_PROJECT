@@ -48,15 +48,73 @@
 	<td></td>
 </tr>
 <tr>
+	<td>2</td>
 	<td>7</td>
-	<td>1</td>
-	<td>Tache 1</td>
+	<td>developpement des interfaces pour ajouter une equipe de projet (Design)</td>
 	<td></td>
 </tr>
 <tr>
+	<td>2</td>
 	<td>8</td>
-	<td>1</td>
-	<td>Tache 1</td>
+	<td>Creation de la table equipe(id,nom_equipe,id_membre)</td>
+	<td></td>
+</tr>
+
+<tr>
+	<td>2</td>
+	<td>9</td>
+	<td>Creation d'un espace prive pour les membres d'equipe ,limiter les droits d'acces au espace</td>
+	<td></td>
+</tr>
+<tr>
+	<td>3</td>
+	<td>10</td>
+	<td>Invitation par email pour l'utilisateur invite au projet</td>
+	<td></td>
+</tr>
+
+<tr>
+	<td>3</td>
+	<td>11</td>
+	<td>Affectation d'un role a </td>
+	<td></td>
+</tr>
+
+
+<tr>
+	<td>3</td>
+	<td>12</td>
+	<td>Invitation par email pour l'utilisateur invite au projet</td>
+	<td></td>
+</tr>
+
+
+<tr>
+	<td>3</td>
+	<td>14</td>
+	<td> </td>
+	<td></td>
+</tr>
+
+
+<tr>
+	<td>4</td>
+	<td>15</td>
+	<td>Creation de formulaire de connexion pour les visiteur de l'application</td>
+	<td></td>
+</tr>
+
+<tr>
+	<td>4</td>
+	<td>16</td>
+	<td>Gestion de connexion du visiteur</td>
+	<td></td>
+</tr>
+
+<tr>
+	<td>4</td>
+	<td>17</td>
+	<td>Limiter les droits d'acces pour un visiteur</td>
 	<td></td>
 </tr>
 
