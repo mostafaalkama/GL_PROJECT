@@ -21,7 +21,7 @@ if(empty($user) || empty($pass)) {
     if($query->rowCount() > 0) {
         $_SESSION['user'] = $user;
         $_SESSION['time_start_login'] = time();
-        header("location: ../projecto.html");
+        header("location: ../projecto.php");
     } else {
          header("location: error.php");
     }

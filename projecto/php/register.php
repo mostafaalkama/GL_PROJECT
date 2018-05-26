@@ -19,7 +19,7 @@ $req->execute(array(
 	
 	));
 
-header('location:index.html');
+header('location:../projecto.html');
 
 }
 elseif (isset($_POST['connexion'])) {
