@@ -23,7 +23,9 @@ if(empty($user) || empty($pass)) {
         $_SESSION['time_start_login'] = time();
         header("location: ../projecto.php");
     } else {
-         header("location: error.php");
+         $_SESSION['error'] = "your name or password incorrect";
+        $_SESSION['time_start_login'] = time();
+         header("location: ../index.php");
     }
 }
 }

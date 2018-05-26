@@ -23,7 +23,7 @@
         <![endif]-->
 
         <!-- Favicon and touch icons -->
-        <link rel="shortcut icon" href="assets/ico/favicon.png">
+        <link rel="shortcut icon" href="assets/ico/favicon.ico">
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
@@ -74,6 +74,9 @@
 				                        	<label class="sr-only" for="form-password">Password</label>
 				                        	<input type="password" name="password" placeholder="Password..." class="form-password form-control" id="form-password">
 				                        </div>
+                                        <!--   <div class="alert alert-warning">
+                                        <strong><?php echo "Warning!"; ?> </strong><?php  session_start(); echo  $_SESSION['error']; ?>
+                                         </div> -->
 				                        <button type="submit" name="connexion" class="btn">Sign in!</button>
 				                    </form>
 			                    </div>
@@ -125,6 +128,7 @@
 				                        	<label class="sr-only" for="form-email">Email</label>
 				                        	<input type="text" name="email" placeholder="Email..." class="form-email form-control" id="form-email">
 				                        </div>
+                                       
 				                         <div class="form-group">
                                             <label class="sr-only" for="form-password">Password</label>
                                             <input type="password" name="password" placeholder="Password..." class="form-password form-control" id="form-password">
