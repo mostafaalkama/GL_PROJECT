@@ -1,0 +1,113 @@
+﻿@using Projecto.Models
+@model LoginViewModel
+@{
+    Layout = null;
+}
+
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Projecto manage your & Project</title>
+    <!-- Meta-Tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Elite login Form a Responsive Web Template, Bootstrap Web Templates, Flat Web Templates, Android Compatible Web Template, Smartphone Compatible Web Template, Free Webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola Web Design">
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <!-- //Meta-Tags -->
+    <!-- Stylesheets -->
+    <link href="~/web/css/font-awesome.css" rel="stylesheet">
+    <link href="~/web/css/style.css" rel='stylesheet' type='text/css' />
+    <!--// Stylesheets -->
+    <!--fonts-->
+    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
+    <!--//fonts-->
+</head>
+
+<body>
+
+    <h1><strong>Projecto</strong> manage your  &amp; Project</h1>
+    <h6>
+       
+                This is a free website <strong>"projecto"</strong> Simple, Propulse brings together the basic functions of a project management tool, ie coordinating everyone's tasks around a single objective. It works like a web application that everyone accesses to get an overview of what's going on and how it's going.. <a href="https://alkama.000webhostapp.com/site/site/" target="_blank"><strong>Ensas  developper</strong></a>,
+                customize and use it as you like!
+          
+    </h6>
+    <br />
+    <div class="w3ls-login">
+
+        @using (Html.BeginForm("weblogin", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+    {
+        @Html.AntiForgeryToken()
+        <h4>Utilisez un compte local pour vous connecter.</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="agile-field-txt">
+            <label>
+                <i class="fa fa-user" aria-hidden="true"></i> Email :
+            </label>
+            <div class="col-md-10">
+                @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="agile-field-txt">
+            <label>
+                <i class="fa fa-lock" aria-hidden="true"></i> password :
+            </label>
+
+            <div class="col-md-10">
+                @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.Password, "", new {id = "myInput" })
+            </div>
+            <div class="agile_label">
+                <input id="check3" name="check3" type="checkbox" value="show password" onclick="myFunction()">
+                <label class="check" for="check3">Show password</label>
+            </div>
+        </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myInput");
+                if (x.type === "password") {
+                    x.type = "text";
+                } else {
+                    x.type = "password";
+                }
+            }
+        </script>
+        <!-- //script for show password -->
+        <div class="w3ls-login  w3l-sub">
+            <input type="submit" value="Login">
+        </div>
+        <a href="Register">register</a>
+
+}
+
+    </div>
+
+    <!-- //form ends here -->
+    <!--copyright-->
+    <div class="copy-wthree">
+        <p>
+            © 2018 manage project login Form . All Rights Reserved | Design by
+            <a href="http://w3layouts.com/" target="_blank">ensas developper</a>
+        </p>
+    </div>
+    <!--//copyright-->
+</body>
+
+</html>
