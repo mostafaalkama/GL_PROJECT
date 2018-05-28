@@ -60,51 +60,32 @@
 	<td> TALHAOUI Ismail</td>
 </tr>
 
-<tr>
-	<td>2</td>
-	<td>9</td>
-	<td>Developpement Back-end:Création d'un espace prive pour les membres d'equipe ,limiter les droits d'acces au espace</td>
-	<td>Mostafa Alkama</br>TALHAOUI Ismail</td>
-</tr>
+
 <tr>
 	<td>3</td>
-	<td>10</td>
+	<td>9</td>
 	<td>Developpement Back-end:Invitation par email pour l'utilisateur invite au projet</td>
 	<td>BENATHMANE Nouhaila</td>
 </tr>
 
-<tr>
-	<td>3</td>
-	<td>11</td>
-	<td>Developpement Back-end:Affectation d'un role a utilisateur Creation de la table roles(id,nom_role,equipe)</td>
-	<td>ALKAMA Mustapha</td>
-</tr>
-
-
-<tr>
-	<td>3</td>
-	<td>12</td>
-	<td>Developpement Back-end:mettre en place les actions et les services pour inviter un utilisateur par email</td>
-	<td>TALHAOUI Ismail</td>
-</tr>
 
 <tr>
 	<td>4</td>
-	<td>13</td>
+	<td>10</td>
 	<td>Developpement Front-end:Création de formulaire de connexion pour les visiteur de l'application(Html+design(Boostrap,Css)) </td>
 	<td>RAKHIM Chaimae</td>
 </tr>
 
 <tr>
 	<td>4</td>
-	<td>14</td>
+	<td>11</td>
 	<td>Developpement Back-end:Gestion de connexion du visiteur</td>
 	<td>BENATHMANE Nouhaila</td>
 </tr>
 
 <tr>
 	<td>4</td>
-	<td>15</td>
+	<td>13</td>
 	<td>Developpement Back-end:Limiter les droits d'acces pour un visiteur</td>
 	<td> ALKAMA Mustapha</br>RAKHIM Chaimae</td>
 </tr>
