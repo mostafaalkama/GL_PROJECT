@@ -52,14 +52,14 @@
 	<td>6</td>
 	<td>Developpement Back-end:Gerer le exceptions et valider le formulaire </td> 
 	<td> ALKAMA Mustapha</td>
-	<td>Moved to Sprint 2</td>
+	<td>Done</td>
 </tr>
 <tr>
 	<td>2</td>
 	<td>7</td>
 	<td>Developpement Front-end:developpement des interfaces pour ajouter une equipe de projet (Html+design(Boostrap,Css))</td>
 	<td> TALHAOUI Ismail</td>
-	<td>Moved to Sprint 2</td>
+	<td>Progress...</td>
 </tr>
 <tr>
 	<td>2</td>
@@ -128,14 +128,6 @@
 	<td>Moved to Sprint 2</td>
 </tr>
 
-
-<tr>
-	<td>3</td>
-	<td>16</td>
-	<td>Developpement Back-end:mettre en place les actions et les services pour inviter un utilisateur par email</td>
-	<td>TALHAOUI Ismail</td>
-	<td>Moved to Sprint 2</td>
-</tr>
 
 
 
