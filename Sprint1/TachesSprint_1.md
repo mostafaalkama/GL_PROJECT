@@ -7,7 +7,7 @@
 	<th>Id tache</th>
 	<th>Taches</th> 
 	<th>Personne en charge</th>
-	<td>Etat </td>
+	<th>Etat </th>
 </tr>
 <tr>
 	<td>1</td>
@@ -115,7 +115,6 @@
  <tr>
  	<td>3</td>
 	<td>14</td>
-	<td>9</td>
  	<td>Developpement Back-end:Invitation par email pour l'utilisateur invite au projet</td>
  	<td>BENATHMANE Nouhaila</td>
 	<td>Moved to Sprint 2</td>
