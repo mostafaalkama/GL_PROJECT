@@ -43,9 +43,9 @@
 <tr>
 	<td>1</td>
 	<td>5</td>
-	<td>Developpement Back-end:Confirmation d'inscription par email </td>
+	<td>realisation du page d'accueil 1/2 </td>
 	<td>TALHAOUI Ismail</td>
-	<td>Progress..</td>
+	<td>Done</td>
 </tr>
 <tr>
 	<td>1</td>
@@ -73,9 +73,9 @@
 <tr>
 	<td>3</td>
 	<td>9</td>
-	<td>Developpement Back-end:Invitation par email pour l'utilisateur invite au projet</td>
+	<td>DES Tests sur authentification </td>
 	<td>BENATHMANE Nouhaila</td>
-	<td>Moved to Sprint 2</td>
+	<td>Done</td>
 </tr>
 
 
@@ -92,7 +92,7 @@
 	<td>11</td>
 	<td>Developpement Back-end:Gestion de connexion du visiteur</td>
 	<td>BENATHMANE Nouhaila</td>
-	<td>Progress...</td>
+	<td>Done</td>
 </tr>
 
 <tr>
@@ -100,7 +100,7 @@
 	<td>12</td>
 	<td>Developpement Back-end:Limiter les droits d'acces pour un visiteur</td>
 	<td> ALKAMA Mustapha</br>RAKHIM Chaimae</td>
-	<td>Moved to Sprint 2</td>
+	<td>Done</td>
 </tr>
 
 
@@ -109,7 +109,7 @@
 	<td>13</td>
 	<td>Developpement Back-end:Création d'un espace prive pour les membres d'equipe ,limiter les droits d'acces au espace</td>
 	<td>Mostafa Alkama</br>TALHAOUI Ismail</td>
-	<td>Moved to Sprint 2</td>
+	<td>Done</td>
 </tr>
 
  <tr>
@@ -117,7 +117,7 @@
 	<td>14</td>
  	<td>Developpement Back-end:Invitation par email pour l'utilisateur invite au projet</td>
  	<td>BENATHMANE Nouhaila</td>
-	<td>Moved to Sprint 2</td>
+	<td>inprogess....</td>
  </tr>
  
 <tr>
@@ -125,7 +125,7 @@
 	<td>15</td>
 	<td>Developpement Back-end:Affectation d'un role a utilisateur Creation de la table roles(id,nom_role,equipe)</td>
 	<td>ALKAMA Mustapha</td>
-	<td>Moved to Sprint 2</td>
+	<td>Done</td>
 </tr>
 
 
