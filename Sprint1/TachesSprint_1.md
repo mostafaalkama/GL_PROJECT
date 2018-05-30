@@ -59,7 +59,7 @@
 	<td>7</td>
 	<td>Developpement Front-end:developpement des interfaces pour ajouter une equipe de projet (Html+design(Boostrap,Css))</td>
 	<td> TALHAOUI Ismail</td>
-	<td>Progress...</td>
+	<td>Done</td>
 </tr>
 <tr>
 	<td>2</td>
