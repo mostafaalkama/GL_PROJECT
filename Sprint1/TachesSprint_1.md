@@ -43,7 +43,7 @@
 <tr>
 	<td>1</td>
 	<td>5</td>
-	<td>realisation du page d'accueil 1/2 </td>
+	<td>Realisation du page d'accueil 1/2 </td>
 	<td>TALHAOUI Ismail</td>
 	<td>Done</td>
 </tr>
