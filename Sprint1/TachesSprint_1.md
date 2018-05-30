@@ -73,7 +73,7 @@
 <tr>
 	<td>3</td>
 	<td>9</td>
-	<td>DES Tests sur authentification </td>
+	<td>Des Tests sur authentification </td>
 	<td>BENATHMANE Nouhaila</td>
 	<td>Done</td>
 </tr>
