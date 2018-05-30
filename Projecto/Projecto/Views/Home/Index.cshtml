@@ -2,13 +2,8 @@
 @{
     Layout = null;
 }
+@using Microsoft.AspNet.Identity
 
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,13 +15,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <meta name="keywords" content="Brisk Biz Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
     <script>
-		addEventListener("load", function () {
-			setTimeout(hideURLbar, 0);
-		}, false);
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
 
-		function hideURLbar() {
-			window.scrollTo(0, 1);
-		}
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
     </script>
     <!-- //Meta Tags -->
     <!-- Style-sheets -->
@@ -56,7 +51,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link ml-lg-0" href="index.html">
+                            <a class="nav-link ml-lg-0" href="index.cshtml">
                                 Home
                                 <span class="sr-only">(current)</span>
                             </a>
@@ -80,18 +75,28 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <li class="nav-item">
                             <a class="nav-link" href="contact.html">Contact</a>
                         </li>
-
-
-                        
                     </ul>
+                    @if (Request.IsAuthenticated)
+                    {
+                        using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+                        {
+                         @Html.AntiForgeryToken()
 
-
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="nav-item">@Html.ActionLink("Register", "webRegister", "Account", routeValues: null, htmlAttributes: new {@class = "nav-link"  })</li>
+                        <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        @Html.ActionLink("Bonjour " + User.Identity.GetUserName() + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })
+                    </li>
+                    <li><a href="javascript:document.getElementById('logoutForm').submit()">Se déconnecter</a></li>
+                      </ul>
+                        }
+                    }
+                    else
+                    {<ul class="nav navbar-nav navbar-right">
+                        <li class="nav-item">@Html.ActionLink("Register", "webRegister", "Account", routeValues: null, htmlAttributes: new { @class = "nav-link" })</li>
                         <li class="nav-item">@Html.ActionLink("Login", "weblogin", "Account", routeValues: null, htmlAttributes: new { @class = "nav-link" })</li>
                     </ul>
+                    }
 
-                   
                 </div>
             </nav>
         </header>
@@ -562,72 +567,72 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <script src="~/accueil/js/jquery.waypoints.min.js"></script>
     <script src="~/accueil/js/jquery.countup.js"></script>
     <script>
-		$('.counter').countUp();
+        $('.counter').countUp();
     </script>
     <!-- //stats -->
     <!-- flexSlider -->
     <script defer src="js/jquery.flexslider.js"></script>
     <script>
-		$(window).load(function () {
-			$('.flexslider').flexslider({
-				animation: "slide",
-				start: function (slider) {
-					$('body').removeClass('loading');
-				}
-			});
-		});
+        $(window).load(function () {
+            $('.flexslider').flexslider({
+                animation: "slide",
+                start: function (slider) {
+                    $('body').removeClass('loading');
+                }
+            });
+        });
     </script>
 
     <!-- //flexSlider -->
     <!-- password-script -->
     <script>
-		window.onload = function () {
-			document.getElementById("password1").onchange = validatePassword;
-			document.getElementById("password2").onchange = validatePassword;
-		}
+        window.onload = function () {
+            document.getElementById("password1").onchange = validatePassword;
+            document.getElementById("password2").onchange = validatePassword;
+        }
 
-		function validatePassword() {
-			var pass2 = document.getElementById("password2").value;
-			var pass1 = document.getElementById("password1").value;
-			if (pass1 != pass2)
-				document.getElementById("password2").setCustomValidity("Passwords Don't Match");
-			else
-				document.getElementById("password2").setCustomValidity('');
-			//empty string means no validation error
-		}
+        function validatePassword() {
+            var pass2 = document.getElementById("password2").value;
+            var pass1 = document.getElementById("password1").value;
+            if (pass1 != pass2)
+                document.getElementById("password2").setCustomValidity("Passwords Don't Match");
+            else
+                document.getElementById("password2").setCustomValidity('');
+            //empty string means no validation error
+        }
     </script>
     <!-- //password-script -->
     <!-- start-smoth-scrolling -->
     <script src="js/move-top.js"></script>
     <script src="js/easing.js"></script>
     <script>
-		jQuery(document).ready(function ($) {
-			$(".scroll").click(function (event) {
-				event.preventDefault();
-				$('html,body').animate({
-					scrollTop: $(this.hash).offset().top
-				}, 1000);
-			});
-		});
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
+            });
+        });
     </script>
     <!-- start-smoth-scrolling -->
     <!-- here stars scrolling icon -->
     <script>
-		$(document).ready(function () {
-			/*
-				var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear'
-				};
-			*/
+        $(document).ready(function () {
+            /*
+                var defaults = {
+                containerID: 'toTop', // fading element id
+                containerHoverID: 'toTopHover', // fading element hover id
+                scrollSpeed: 1200,
+                easingType: 'linear'
+                };
+            */
 
-			$().UItoTop({
-				easingType: 'easeOutQuart'
-			});
+            $().UItoTop({
+                easingType: 'easeOutQuart'
+            });
 
-		});
+        });
     </script>
     <!-- //here ends scrolling icon -->
     <!-- Js for bootstrap working-->
