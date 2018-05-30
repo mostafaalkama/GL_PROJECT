@@ -109,7 +109,7 @@
 	<td>13</td>
 	<td>Developpement Back-end:Création d'un espace prive pour les membres d'equipe ,limiter les droits d'acces au espace</td>
 	<td>Mostafa Alkama</br>TALHAOUI Ismail</td>
-	<td>Done</td>
+	<td>Moved to Sprint 2</td>
 </tr>
 
  <tr>
@@ -125,7 +125,7 @@
 	<td>15</td>
 	<td>Developpement Back-end:Affectation d'un role a utilisateur Creation de la table roles(id,nom_role,equipe)</td>
 	<td>ALKAMA Mustapha</td>
-	<td>Done</td>
+	<td>Moved to Sprint 2</td>
 </tr>
 
 
