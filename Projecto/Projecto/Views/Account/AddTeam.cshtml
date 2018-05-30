@@ -1,0 +1,32 @@
+﻿@model Projecto.Models.AddTeamViewModel
+@{
+    ViewBag.Title = "Ajouter Une Equipe";
+}
+
+<h2>@ViewBag.Title.</h2>
+
+@using (Html.BeginForm("AddTeam", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    @Html.AntiForgeryToken()
+    <h4>Ajouter une equipe.</h4>
+    <hr />
+    @Html.ValidationSummary("", new { @class = "text-danger" })
+    <div class="form-group">
+        @Html.LabelFor(m => m.Name, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.MembersMail, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.PasswordFor(m => m.MembersMail, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" class="btn btn-default" value="Ajouter Equipe" />
+        </div>
+    </div>
+}
+

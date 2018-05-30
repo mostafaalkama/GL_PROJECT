@@ -9,7 +9,18 @@ namespace Projecto.Models
         [Display(Name = "Courrier électronique")]
         public string Email { get; set; }
     }
+    public class AddTeamViewModel {
 
+        [Required]
+        [Display(Name = "Team Name ")]
+        public string Name { get; set; }
+
+        // mail members Field, email of every member of team separated by comma 
+        [Required]
+        [Display(Name = "Members Mail")]
+        public string MembersMail { get; set; }
+
+    }
     public class ExternalLoginListViewModel
     {
         public string ReturnUrl { get; set; }
@@ -108,5 +119,9 @@ namespace Projecto.Models
         [EmailAddress]
         [Display(Name = "E-mail")]
         public string Email { get; set; }
+    }
+    public class EquipeViewModel
+    {
+
     }
 }

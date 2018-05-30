@@ -53,7 +53,14 @@ namespace Projecto.Controllers
         }
 
         //
-       
+
+        [AllowAnonymous]
+        public ActionResult AddTeam(string returnUrl)
+        {
+            ViewBag.ReturnUrl = returnUrl;
+            return View();
+        }
+
         // GET: /Account/Login
         [AllowAnonymous]
         public ActionResult weblogin(string returnUrl)
