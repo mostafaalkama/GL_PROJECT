@@ -117,7 +117,7 @@
 	<td>14</td>
  	<td>Developpement Back-end:Invitation par email pour l'utilisateur invite au projet</td>
  	<td>BENATHMANE Nouhaila</td>
-	<td>inprogess....</td>
+	<td>Progess....</td>
  </tr>
  
 <tr>
