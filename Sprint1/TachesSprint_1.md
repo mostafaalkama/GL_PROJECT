@@ -27,7 +27,7 @@
 
 <tr>
 	<td>1</td>
-	<td>3</td>
+	<td>5</td>
 	<td>Developpement Back-end:Création de couche service conteient les methodes permet l'inscription d'un utilisateur </td> 
 	<td>Chaimae Rakhim </td>
 	<td>Done</td>
@@ -113,7 +113,7 @@
 </tr>
 
  <tr>
- 	<td>3</td>
+ 	<td>5</td>
 	<td>14</td>
  	<td>Developpement Back-end:Invitation par email pour l'utilisateur invite au projet</td>
  	<td>BENATHMANE Nouhaila</td>
@@ -121,7 +121,7 @@
  </tr>
  
 <tr>
-	<td>3</td>
+	<td>5</td>
 	<td>15</td>
 	<td>Developpement Back-end:Affectation d'un role a utilisateur Creation de la table roles(id,nom_role,equipe)</td>
 	<td>ALKAMA Mustapha</td>
