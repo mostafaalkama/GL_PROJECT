@@ -1,6 +1,8 @@
 ﻿
 @{
-    Layout = null;
+                /**/
+
+                Layout = null;
 }
 @using Microsoft.AspNet.Identity
 
@@ -80,21 +82,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     {
                         using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
                         {
-                         @Html.AntiForgeryToken()
+                            @Html.AntiForgeryToken()
 
-                        <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        @Html.ActionLink("Bonjour " + User.Identity.GetUserName() + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })
-                    </li>
-                    <li><a href="javascript:document.getElementById('logoutForm').submit()">Se déconnecter</a></li>
-                      </ul>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li>
+                                    @Html.ActionLink("Bonjour " + User.Identity.GetUserName() + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })
+                                </li>
+                                <li><a href="javascript:document.getElementById('logoutForm').submit()">Se déconnecter</a></li>
+                            </ul>
                         }
                     }
                     else
                     {<ul class="nav navbar-nav navbar-right">
-                        <li class="nav-item">@Html.ActionLink("Register", "webRegister", "Account", routeValues: null, htmlAttributes: new { @class = "nav-link" })</li>
-                        <li class="nav-item">@Html.ActionLink("Login", "weblogin", "Account", routeValues: null, htmlAttributes: new { @class = "nav-link" })</li>
-                    </ul>
+                            <li class="nav-item">@Html.ActionLink("Register", "webRegister", "Account", routeValues: null, htmlAttributes: new { @class = "nav-link" })</li>
+                            <li class="nav-item">@Html.ActionLink("Login", "weblogin", "Account", routeValues: null, htmlAttributes: new { @class = "nav-link" })</li>
+                        </ul>
                     }
 
                 </div>
@@ -107,7 +109,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <div class="carousel-item b1 active">
                     <div class="container banner-info-w3-agile">
                         <h3>Bienvenue dans notre site</h3>
-                        
+
                     </div>
                 </div>
                 <div class="carousel-item b2">
@@ -146,7 +148,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <h5 class="main-w3l-title mb-sm-4 mb-3">Notre strategie</h5>
             <div class="srategy-text mb-5">
                 <p class="paragraph-agileinfo">
-                   Notre site est un moyen facile pour aider les utilisateurs à travailler en ligne leurs projets et les modifier, tout en facilitant l'accés au backlog et le travail avec la methode scrum.
+                    Notre site est un moyen facile pour aider les utilisateurs à travailler en ligne leurs projets et les modifier, tout en facilitant l'accés au backlog et le travail avec la methode scrum.
                 </p>
             </div>
             <div class="bnr-btm-main row justify-content-around">
@@ -214,7 +216,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             </div>
         </div>
     </section>
-  
+
     <section class="subscribe-section py-5">
         <div class="container py-xl-5 py-sm-3">
             <h5 class="main-w3l-title mb-sm-4 mb-3 text-white">Avoir de nos nouvelles</h5>
@@ -231,7 +233,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <!-- Testimonials -->
     <section class="reviews_sec py-5">
         <div class="container py-xl-5 py-sm-3">
-            
+
             <div class="inner-sec-w3layouts-agileinfo">
                 <section class="slider">
                     <div class="flexslider">
@@ -305,24 +307,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <h2>Instagram </h2>
                             <div class="container-fluid">
                                 <div class="row">
-                                    <a href="single.html" class="col-4">
+                                    <a href="" class="col-4">
                                         <img src="~/accueil/images/h1.jpg" class="img-fluid" alt="Responsive image">
                                     </a>
-                                    <a href="single.html" class="col-4">
+                                    <a href="" class="col-4">
                                         <img src="~/accueil/images/h2.jpg" class="img-fluid" alt="Responsive image">
                                     </a>
-                                    <a href="single.html" class="col-4">
+                                    <a href="" class="col-4">
                                         <img src="~/accueil/images/h3.jpg" class="img-fluid" alt="Responsive image">
                                     </a>
                                 </div>
                                 <div class="row">
-                                    <a href="single.html" class="col-4">
+                                    <a href="" class="col-4">
                                         <img src="~/accueil/images/h2.jpg" class="img-fluid" alt="Responsive image">
                                     </a>
-                                    <a href="single.html" class="col-4">
+                                    <a href="" class="col-4">
                                         <img src="~/accueil/images/h3.jpg" class="img-fluid" alt="Responsive image">
                                     </a>
-                                    <a href="single.html" class="col-4">
+                                    <a href="" class="col-4">
                                         <img src="~/accueil/images/h1.jpg" class="img-fluid" alt="Responsive image">
                                     </a>
                                 </div>
@@ -341,44 +343,36 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             </address>
                         </div>
                         <div class="col-lg-6 footer-grids-w3layouts mt-xl-5 mt-4">
-                           
-                        <div class="col-lg-6 footer-grids-w3layouts mt-xl-5 mt-4">
-                            <h3>Social Media</h3>
-                            <ul class="social_list_wthree">
-                                <li class="text-center">
-                                    <a href="#" class="facebook1">
-                                        <i class="fab fa-facebook-f"></i>
 
-                                    </a>
-                                </li>
-                                <li class="text-center mx-3">
-                                    <a href="#" class="twitter2">
-                                        <i class="fab fa-twitter"></i>
+                            <div class="col-lg-6 footer-grids-w3layouts mt-xl-5 mt-4">
+                                <h3>Social Media</h3>
+                                <ul class="social_list_wthree">
+                                    <li class="text-center">
+                                        <a href="" class="facebook1">
+                                            <i class="fab fa-facebook-f"></i>
 
-                                    </a>
-                                </li>
-                                <li class="text-center">
-                                    <a href="#" class="dribble3">
-                                        <i class="fab fa-dribbble"></i>
-                                    </a>
-                                </li>
-                            </ul>
+                                        </a>
+                                    </li>
+                                    <li class="text-center mx-3">
+                                        <a href="" class="twitter2">
+                                            <i class="fab fa-twitter"></i>
+
+                                        </a>
+                                    </li>
+                                    <li class="text-center">
+                                        <a href="" class="dribble3">
+                                            <i class="fab fa-dribbble"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                </div>
 
+                </div>
             </div>
-        </div>
     </footer>
-    <!-- //Footer -->
-    <!-- copyright -->
-    <div class="copyright-w3layouts">
-        <div class="container">
-            
-        </div>
-    </div>
-    <!-- //copyright -->
-    <!-- Login Modal -->
+
     <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
