@@ -4,12 +4,6 @@
     Layout = null;
 }
 
-<!--A Design by W3layouts
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE HTML>
 <html>
 
@@ -40,13 +34,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 <body>
 
-    <h1><strong>Projecto</strong> manage your  &amp; Project</h1>
-    <h6>
-       
-                This is a free website <strong>"projecto"</strong> Simple, Propulse brings together the basic functions of a project management tool, ie coordinating everyone's tasks around a single objective. It works like a web application that everyone accesses to get an overview of what's going on and how it's going.. <a href="https://alkama.000webhostapp.com/site/site/" target="_blank"><strong>Ensas  developper</strong></a>,
-                customize and use it as you like!
-          
-    </h6>
+    <h1> <span style="color:dodgerblue;"> <strong>Projecto</strong> manage your  &amp; Project</span></h1>
+  
     <br />
     <div class="w3ls-login">
 
@@ -58,7 +47,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
         <div class="agile-field-txt">
             <label>
-                <i class="fa fa-user" aria-hidden="true"></i> Email :
+                 Email :
             </label>
             <div class="col-md-10">
                 @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
@@ -67,7 +56,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         </div>
         <div class="agile-field-txt">
             <label>
-                <i class="fa fa-lock" aria-hidden="true"></i> password :
+               password :
             </label>
 
             <div class="col-md-10">
@@ -93,7 +82,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <div class="w3ls-login  w3l-sub">
             <input type="submit" value="Login">
         </div>
-        <a href="Register">register</a>
+        <div><a style="text-align:center" href="/Account/webRegister">register</a></div>
 
 }
 
@@ -103,8 +92,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <!--copyright-->
     <div class="copy-wthree">
         <p>
-            © 2018 manage project login Form . All Rights Reserved | Design by
-            <a href="http://w3layouts.com/" target="_blank">ensas developper</a>
+            <span style="color:dodgerblue;">
+                © 2018 manage project login Form . All Rights Reserved | Design by
+                <a href="" target="_blank">ensas developper</a>
+            </span>
         </p>
     </div>
     <!--//copyright-->
