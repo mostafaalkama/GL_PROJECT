@@ -27,7 +27,7 @@
 
 <tr>
 	<td>1</td>
-	<td>5</td>
+	<td>3</td>
 	<td>Developpement Back-end:Création de couche service conteient les methodes permet l'inscription d'un utilisateur </td> 
 	<td>Chaimae Rakhim </td>
 	<td>Done</td>
@@ -71,7 +71,7 @@
 
 
 <tr>
-	<td>3</td>
+	<td>5</td>
 	<td>9</td>
 	<td>Des Tests sur authentification </td>
 	<td>BENATHMANE Nouhaila</td>
